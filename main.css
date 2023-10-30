@@ -1,0 +1,51 @@
+*{  
+    background-color: rgb(176, 176, 176);
+}
+
+body{
+    padding: 200px 0;
+}
+
+header{
+    padding: 12px 0;
+    color:#000;
+    display: flex;
+    justify-content: center;
+    font-size: italic;
+}
+
+#nomeTarefa{
+    font-weight: bold;
+    background-color: #fff;
+}
+
+form{
+    padding: 10px 0;
+    text-align: center;
+}
+
+input, button{
+    padding: 12px;
+}
+
+button{
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 38%;
+    top: 50%;
+    max-width: 200px;
+}
+
+li{
+    margin-bottom: 10px;
+    padding: 5px;
+    list-style-type: none; 
+}
